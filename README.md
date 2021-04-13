@@ -16,6 +16,16 @@ Found this dataset from [Kaggle](https://www.kaggle.com/fedesoriano/stroke-predi
 
 **NOTE**: This dataset is **_not good enough_** for modelling to predict stroke accurately. The trained model has **very low** F1 score and Recall score on predicting stroke, which essentially means most of the time it will just predict "Not Stroke". Although the proportion of humans suffering from stroke is also much lower in comparison with those who are not, it is still **not ideal** to tell many people that they are not likely to suffer a stroke when in fact they are!
 
+I have spent quite a long time trying to model this as this is my first time trying out so many things while building a model... <br>
+So please have a look and thanks for checking out! <br>
+
+There are numerous methods I tried to improve the model performance but they did not help much, but I decided to include them under the APPENDIX section of the [stroke_prediction_modelling.ipynb](https://github.com/ansonnn07/stroke-prediction/blob/main/stroke_prediction_modelling.ipynb) notebook.
+
+Some of the notable problems in the dataset are:
+1. Imbalanced `stroke` classes - tried using SMOTE + Tomek to overcome this but seems like did not help much (can refer under APPENDIX section)
+2. Many outliers in the `avg_glucose_level` and `bmi` features - Tried removing using IsolationForest or IQR (APPENDIX section)
+3. Many missing values in the `bmi` features - Tried median imputation, DecisionTreeRegressor imputation, and KNearestNeighbor Imputation and settled with KNNImputer.
+
 There are 3 notebooks made to play with the dataset:
 
 1. Exploratory Data Analysis (EDA) --> [stroke_prediction_EDA.ipynb](https://github.com/ansonnn07/stroke-prediction/blob/main/stroke_prediction_EDA.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ansonnn07/stroke-prediction/blob/main/stroke_prediction_EDA.ipynb)
@@ -24,7 +34,7 @@ There are 3 notebooks made to play with the dataset:
 
 3. Feature Engineering and Modelling --> [stroke_prediction_modelling.ipynb](https://github.com/ansonnn07/stroke-prediction/blob/main/stroke_prediction_modelling.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ansonnn07/stroke-prediction/blob/main/stroke_prediction_modelling.ipynb)
 
-I also have this notebooks uploaded to Kaggle.
+I also have the notebooks uploaded to Kaggle.
 1. https://www.kaggle.com/ansonnn/stroke-prediction-eda
 2. https://www.kaggle.com/ansonnn/stroke-prediction-statistical-analysis
 3. https://www.kaggle.com/ansonnn/stroke-prediction-modelling
