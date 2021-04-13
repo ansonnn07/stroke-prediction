@@ -24,6 +24,11 @@ There are 3 notebooks made to play with the dataset:
 
 3. Feature Engineering and Modelling --> [stroke_prediction_modelling.ipynb](https://github.com/ansonnn07/stroke-prediction/blob/main/stroke_prediction_modelling.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ansonnn07/stroke-prediction/blob/main/stroke_prediction_modelling.ipynb)
 
+I also have this notebooks uploaded to Kaggle.
+1. https://www.kaggle.com/ansonnn/stroke-prediction-eda
+2. https://www.kaggle.com/ansonnn/stroke-prediction-statistical-analysis
+3. https://www.kaggle.com/ansonnn/stroke-prediction-modelling
+
 Here are some of the example visualizations from the notebooks:
 
 ![Correlation Matrix](correlation_matrix.png)
