@@ -26,6 +26,7 @@ Some of the notable problems in the dataset are:
 2. Many outliers in the `avg_glucose_level` and `bmi` features - Tried removing using IsolationForest or IQR (APPENDIX section)
 3. Many missing values in the `bmi` features - Tried median imputation, DecisionTreeRegressor imputation, and KNearestNeighbor Imputation and settled with KNNImputer.
 
+## Notebooks
 There are 3 notebooks made to play with the dataset:
 
 1. Exploratory Data Analysis (EDA) --> [stroke_prediction_EDA.ipynb](https://github.com/ansonnn07/stroke-prediction/blob/main/stroke_prediction_EDA.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ansonnn07/stroke-prediction/blob/main/stroke_prediction_EDA.ipynb)
@@ -39,6 +40,7 @@ I also have the notebooks uploaded to Kaggle.
 2. https://www.kaggle.com/ansonnn/stroke-prediction-statistical-analysis
 3. https://www.kaggle.com/ansonnn/stroke-prediction-modelling
 
+## Visualizations
 Here are some of the example visualizations from the notebooks:
 
 ![Correlation Matrix](correlation_matrix.png)
