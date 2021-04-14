@@ -14,7 +14,7 @@
 
 Found this dataset from [Kaggle](https://www.kaggle.com/fedesoriano/stroke-prediction-dataset) and was trying to learn Data Science skills by following the whole life cycle of a Data Science project. This dataset was used to investigate whether it is possible to predict stroke by using some features related of humans.
 
-**NOTE**: This dataset is **_not good enough_** for modelling to predict stroke accurately. The trained model has **very low** F1 score and Recall score on predicting stroke, which essentially means most of the time it will just predict "Not Stroke". Although the proportion of humans suffering from stroke is also much lower in comparison with those who are not, it is still **not ideal** to tell many people that they are not likely to suffer a stroke when in fact they are!
+**NOTE**: This dataset is **_not good enough_** for modelling to predict stroke accurately. The trained model has **very low** F1 score and Recall score (both at **around 20%** or less) on predicting stroke, which essentially means most of the time it will just predict "Not Stroke". Although the proportion of humans suffering from stroke is also much lower in comparison with those who are not, it is still **not ideal** to tell many people that they are not likely to suffer a stroke when in fact they are!
 
 I have spent quite a long time trying to model this as this is my first time trying out so many things while building a model... <br>
 So please have a look and thanks for checking out! <br>
